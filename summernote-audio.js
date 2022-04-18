@@ -184,7 +184,7 @@
                 var mp3RegExp = /^.+.(mp3)$/;
                 var mp3Match = url.match(mp3RegExp);
 
-                var oggRegExp = /^.+.(ogg|oga)$/;
+                var oggRegExp = /^.+.(ogg|oga|opus)$/;
                 var oggMatch = url.match(oggRegExp);
 
                 var base64RegExp = /^data:(audio\/mpeg|audio\/ogg).+$/;
